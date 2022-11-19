@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    float: none;
+	position: static;
+}
+.iphonever{
+    display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    
+}
+.container{
+    width: 1440px;
+    
+}
+.header-left img{
+    width: 120px;
+    float: left;
+}
+.header-left h3{
+    color: azure;
+    padding-top: 21px;
+    float: left;
+}
+
+
+.swich-wrapper{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+.swich-wrapper a{
+    padding: 0 75px;
+    background-color: white;
+    line-height: 70px;
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Arial Black";   
+}
+
+.swich-wrapper a:hover{
+    opacity: 1;
+}
+
+.top-wrapper{
+    background-image: url(/img/az_top-wrapper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 1440px;
+    position: relative;
+    border-top: 20px solid black;
+    
+}
+
+.top-wrapper h1{
+    background-color: rgba(255,255,255,0.6);
+    float:left;
+    border-bottom:2px solid black;
+    margin-top:30px;
+    padding:0 20px;
+    font-size:40px;
+}
+
+.top-wrapper h3{
+    float: left;
+    font-size: 60px;
+    color: azure;
+    letter-spacing: 8px;
+    opacity: 1;
+    width: 100%;
+    margin:0 auto;
+    text-align: left;
+    padding-top: 95px;
+    padding-left: 20px;
+}
+.top-wrapper h3 span {
+ font-size: 90px;
+ color: white;
+ font-family: "Arial Black";
+}
+.top-wrapper h2{
+    background-color: rgba(0, 0, 0, 0.6); 
+    color:white;
+    float: right;
+    border-bottom:2px solid white;
+    font-size: 40px;
+    padding:0 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.news-wrapper{
+    background-color: azure;
+    height: 460px;
+    
+}
+.news-wrapper h1{
+    padding-top: 50px;
+    font-size: 30px;
+    border-bottom:1px dotted grey;
+}
+.news{
+    border-bottom:1px dotted grey;
+}
+.news h2{
+ font-size: 20px;
+ display: inline;
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+.news a{
+ font-size: 30px;
+ padding: 10px;
+ display: inline-block;
+ opacity: 0.5;
+}
+.news a:hover{
+    opacity: 1;
+}
+.news-bottom{
+    border-bottom:1px dotted gray
+}
+
+.snsinfo{
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.382);
+    
+    
+}
+.insta-icon{
+    line-height: 100px;
+    text-align: center;
+    width: 1440px;
+}
+.insta-icon a{
+    background-image: url(/img/insta_background.jpg);
+    background-size: cover;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 6px black;
+}
+
+.insta-icon a:hover{
+    opacity: 1;
+}
+
+.insta-icon a:active{
+    box-shadow: none;
+    position: relative;
+    top: 6px;
+}
+
+.fa-brands{
+    margin-right: 10px;
+}
+
+
+footer{
+    width: 1440px;
+}
+.fotter-logo p{
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
