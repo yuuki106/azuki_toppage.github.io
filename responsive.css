@@ -1,0 +1,62 @@
+@media screen and (max-width:480px) {
+
+    .pcver{
+        display: none;
+    }
+
+    .iphonever{
+        display: block;
+    }
+    .header-left h3{
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    .swich-wrapper{
+        height:auto;
+    }
+    
+    .swich-wrapper a{
+        width: 100%;
+    }
+
+    .top-wrapper{
+        width: 100%;
+        background-position: center;
+        height: 500px;
+        background-position: right 50% bottom 20%;
+    }
+    
+    .top-wrapper h1,h2{
+        display: none;
+    }
+    .top-wrapper h3{
+        letter-spacing: 1px;
+        opacity: 1;
+        position: absolute;
+        bottom: 0;
+        font-size:40px;
+    }
+    .top-wrapper h3 span{
+        color:white;
+    }
+    .news-wrapper{
+        text-align: center;
+    }
+     .news-wrapper a{
+        font-size: 20px;
+        width: 100%;
+    }
+    .news-wrapper h1{
+        padding-bottom: 20px;
+    }
+    .insta-icon{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
