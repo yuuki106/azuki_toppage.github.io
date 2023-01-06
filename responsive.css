@@ -3,7 +3,12 @@
     .pcver{
         display: none;
     }
+    
+    header{
+        width:100%;
+    }
 
+    
     .header-left h3{
         font-size: 18px;
         border-bottom: 1px solid white;
@@ -57,6 +62,7 @@
 
     .news-wrapper{
         text-align: center;
+        width: 100%;
     }
      .news-wrapper a{
         font-size: 20px;
@@ -75,12 +81,13 @@
         padding-top: 4px;
     }
 
-    .white-area{
-        background-color: ;
+    .snsinfo{
+        width: 100%;
     }
     .insta-icon{
         width: 100%;
     }
+
     footer{
         width: 100%;
     }
