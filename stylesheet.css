@@ -57,7 +57,7 @@ header{
     display: none;
 }
 .top-wrapper{
-    background-image: url(/img/az_top-wrapper.jpg);
+    background-image: url(https://github.com/yuuki106/azuki_toppage.github.io/blob/main/az_top-wrapper.jpg?raw=true);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -153,7 +153,7 @@ header{
     width: 1440px;
 }
 .insta-icon a{
-    background-image: url(/img/insta_background.jpg);
+    background-image: url(https://github.com/yuuki106/azuki_toppage.github.io/blob/main/insta_background.jpg?raw=true);
     background-size: cover;
     padding: 20px 30px;
     font-size: 20px;
