@@ -7,7 +7,10 @@
     header{
         width:100%;
     }
-
+    
+    .header-left img{
+        margin-left: 10px;
+    }
     
     .header-left h3{
         font-size: 18px;
