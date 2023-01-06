@@ -4,30 +4,21 @@
         display: none;
     }
 
-    .iphonever{
-        display: block;
-    }
     .header-left h3{
         font-size: 18px;
         border-bottom: 1px solid white;
     }
     .container{
         width: 100%;
-        
-    }
-    .swich-wrapper{
-        height:auto;
-    }
-    
-    .swich-wrapper a{
-        width: 100%;
     }
 
     .top-wrapper{
         width: 100%;
-        background-position: center;
-        height: 500px;
-        background-position: right 50% bottom 20%;
+        height: 200px;
+        border-top: none;
+        background: url(/img/iphone-background.jpg);
+        background-size: cover;
+
     }
     
     .top-wrapper h1,h2{
@@ -36,13 +27,34 @@
     .top-wrapper h3{
         letter-spacing: 1px;
         opacity: 1;
-        position: absolute;
-        bottom: 0;
-        font-size:40px;
+        font-size:20px;
+        text-align: right;
+        padding-right: 10px;
     }
     .top-wrapper h3 span{
         color:white;
+        font-size: 30px;
     }
+
+    .iphone-swich{
+        display: inline-block;
+        background-color: black;
+    }
+    .iphone-switchlist{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        border: 3px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .iphone-switchlist li{
+        width: 33.33%;
+        height: 72px;
+        border: 1px solid black;
+    }
+
+
     .news-wrapper{
         text-align: center;
     }
@@ -52,6 +64,19 @@
     }
     .news-wrapper h1{
         padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .news h2{
+        font-size: 15px;
+    }
+    .news a{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+
+    .white-area{
+        background-color: ;
     }
     .insta-icon{
         width: 100%;
