@@ -3,9 +3,7 @@
     margin: 0;
     float: none;
 	position: static;
-}
-.iphonever{
-    display: none;
+    list-style: none;
 }
 
 img {
@@ -53,9 +51,11 @@ header{
 .swich-wrapper a:hover{
     opacity: 1;
 }
-
+.iphone-swich{
+    display: none;
+}
 .top-wrapper{
-    background-image: url(https://github.com/yuuki106/azuki.github.io/blob/main/az_top-wrapper.jpg?raw=true);
+    background-image: url(/img/az_top-wrapper.jpg);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -106,7 +106,7 @@ header{
 
 
 .news-wrapper{
-    background-color: azure;
+    background-color: rgb(239, 239, 239);
     height: 100%;
     
 }
@@ -114,6 +114,7 @@ header{
     padding-top: 50px;
     font-size: 30px;
     border-bottom:1px dotted grey;
+    padding-left: 20px;
 }
 .news{
     border-bottom:1px dotted grey;
@@ -150,7 +151,7 @@ header{
     width: 1440px;
 }
 .insta-icon a{
-    background-image: url(https://github.com/yuuki106/azuki.github.io/blob/main/insta_background.jpg?raw=true);
+    background-image: url(/img/insta_background.jpg);
     background-size: cover;
     padding: 20px 30px;
     font-size: 20px;
@@ -184,3 +185,4 @@ footer{
     text-align: center;
     line-height: 80px;
 }
+
